@@ -6,4 +6,4 @@ Bash script that removes duplicates of files in directory
 sh main.sh
 ```
 
-## File names should contain spaces
+## File names should not contain spaces
