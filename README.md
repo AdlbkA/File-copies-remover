@@ -5,3 +5,5 @@ Bash script that removes duplicates of files in directory
 ```bash
 sh main.sh
 ```
+
+## File names should contain spaces
