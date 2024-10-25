@@ -22,7 +22,7 @@ do
 done < "$file"
 
 # Compare hashes and remove pictures if they are identical
-for (( i=0; i<${#hashes[@]}; i++)); do
+for (( i=0; i<${#hashes[@]}-1; i++)); do
     if [[ ${hashes[i]} == ${hashes[i+1]} ]];
     then
         rm ${paths[i+1]}
